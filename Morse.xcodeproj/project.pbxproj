@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		040F55552A13E17F007B8453 /* MorseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F55542A13E17F007B8453 /* MorseApp.swift */; };
+		040F55552A13E17F007B8453 /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F55542A13E17F007B8453 /* MyApp.swift */; };
 		040F55572A13E17F007B8453 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F55562A13E17F007B8453 /* ContentView.swift */; };
 		040F55592A13E181007B8453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040F55582A13E181007B8453 /* Assets.xcassets */; };
 		040F555C2A13E181007B8453 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040F555B2A13E181007B8453 /* Preview Assets.xcassets */; };
+		040F55692A13E6B9007B8453 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F55682A13E6B9007B8453 /* BackgroundView.swift */; };
+		040F556C2A13E6E1007B8453 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F556B2A13E6E1007B8453 /* Cards.swift */; };
+		040F556E2A13E6EA007B8453 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F556D2A13E6EA007B8453 /* Extension.swift */; };
+		040F55702A13E6F4007B8453 /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F556F2A13E6F4007B8453 /* LevelView.swift */; };
+		040F55722A13E6FC007B8453 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F55712A13E6FC007B8453 /* MenuView.swift */; };
+		040F55742A13E705007B8453 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F55732A13E705007B8453 /* PlayView.swift */; };
+		040F55762A13E70F007B8453 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F55752A13E70F007B8453 /* SplashScreen.swift */; };
+		040F55782A13E71B007B8453 /* TranslateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F55772A13E71B007B8453 /* TranslateView.swift */; };
+		040F557A2A13EB76007B8453 /* CustomTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F55792A13EB76007B8453 /* CustomTextEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		040F55512A13E17F007B8453 /* Morse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Morse.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		040F55542A13E17F007B8453 /* MorseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseApp.swift; sourceTree = "<group>"; };
+		040F55542A13E17F007B8453 /* MyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
 		040F55562A13E17F007B8453 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		040F55582A13E181007B8453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040F555B2A13E181007B8453 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		040F55682A13E6B9007B8453 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		040F556B2A13E6E1007B8453 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		040F556D2A13E6EA007B8453 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		040F556F2A13E6F4007B8453 /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
+		040F55712A13E6FC007B8453 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		040F55732A13E705007B8453 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		040F55752A13E70F007B8453 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		040F55772A13E71B007B8453 /* TranslateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateView.swift; sourceTree = "<group>"; };
+		040F55792A13EB76007B8453 /* CustomTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +69,8 @@
 		040F55532A13E17F007B8453 /* Morse */ = {
 			isa = PBXGroup;
 			children = (
-				040F55542A13E17F007B8453 /* MorseApp.swift */,
+				040F55672A13E6A4007B8453 /* GameView */,
+				040F55542A13E17F007B8453 /* MyApp.swift */,
 				040F55562A13E17F007B8453 /* ContentView.swift */,
 				040F55582A13E181007B8453 /* Assets.xcassets */,
 				040F555A2A13E181007B8453 /* Preview Content */,
@@ -65,6 +84,30 @@
 				040F555B2A13E181007B8453 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		040F55672A13E6A4007B8453 /* GameView */ = {
+			isa = PBXGroup;
+			children = (
+				040F556A2A13E6CC007B8453 /* Helpers */,
+				040F55682A13E6B9007B8453 /* BackgroundView.swift */,
+				040F55772A13E71B007B8453 /* TranslateView.swift */,
+				040F556F2A13E6F4007B8453 /* LevelView.swift */,
+				040F55712A13E6FC007B8453 /* MenuView.swift */,
+				040F55732A13E705007B8453 /* PlayView.swift */,
+				040F55752A13E70F007B8453 /* SplashScreen.swift */,
+			);
+			path = GameView;
+			sourceTree = "<group>";
+		};
+		040F556A2A13E6CC007B8453 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				040F556B2A13E6E1007B8453 /* Cards.swift */,
+				040F556D2A13E6EA007B8453 /* Extension.swift */,
+				040F55792A13EB76007B8453 /* CustomTextEditor.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +180,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040F55762A13E70F007B8453 /* SplashScreen.swift in Sources */,
+				040F55702A13E6F4007B8453 /* LevelView.swift in Sources */,
+				040F55722A13E6FC007B8453 /* MenuView.swift in Sources */,
+				040F556C2A13E6E1007B8453 /* Cards.swift in Sources */,
 				040F55572A13E17F007B8453 /* ContentView.swift in Sources */,
-				040F55552A13E17F007B8453 /* MorseApp.swift in Sources */,
+				040F556E2A13E6EA007B8453 /* Extension.swift in Sources */,
+				040F55742A13E705007B8453 /* PlayView.swift in Sources */,
+				040F55692A13E6B9007B8453 /* BackgroundView.swift in Sources */,
+				040F55552A13E17F007B8453 /* MyApp.swift in Sources */,
+				040F557A2A13EB76007B8453 /* CustomTextEditor.swift in Sources */,
+				040F55782A13E71B007B8453 /* TranslateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

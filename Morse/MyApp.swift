@@ -1,14 +1,9 @@
-//
-//  MorseApp.swift
-//  Morse
-//
-//  Created by MacBook Pro on 16/05/23.
-//
+
 
 import SwiftUI
 
 @main
-struct MorseApp: App {
+struct MyApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -1,26 +1,24 @@
-//
-//  ContentView.swift
-//  Morse
-//
-//  Created by MacBook Pro on 16/05/23.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isSplashScreenPresented = true
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack {
+            if isSplashScreenPresented {
+                SplashScreen()
+                    .transition(.opacity)
+                    .animation(.easeInOut(duration: 1.5))
+                    .onAppear {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                            withAnimation {
+                                isSplashScreenPresented = false
+                            }
+                        }
+                    }
+            } else {
+                MenuView()
+            }
         }
-        .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }
